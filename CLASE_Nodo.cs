@@ -8,15 +8,15 @@ namespace BUSCAR_ELEMENTO_BINARIO
 {
     class Nodo
     {
-        public Nodo hi; // nodo izquierdo
-        public Nodo hd; // nodo derecho
-        public  int valor; // valor entero
+        public Nodo hi;
+        public Nodo hd;
+        public int valor;
 
-        public Nodo()
+        public Nodo() // Agregamos un constructor
         {
-            hi = null;
-            hd = null;
-            valor = 0;
-        }
+            hi = null; // declaramos nulo tanto a su hijo izquierdo 
+            hd = null; //como a la derecha
+            valor = 0; 
+        } 
     }
 }
